@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* section 1 starts here */
+
+
+/* navbar starts here */
+
+.navbar {
+    width: 100%;
+    background-color: #001D0D !important;
+}
+
+.navbar .container {
+    width: 85%;
+    padding: 8px 0;
+}
+
+.navbar a {
+    font-family: 'Poppins' sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF !important;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.navbar img {
+    width: 18%;
+    border-radius: 0px;
+}
+
+@media (max-width:1147px) {
+    .navbar-nav a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1011px) {
+    .navbar-nav a {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .navbar-toggler-icon {
+        display: block !important;
+    }
+    .navbar-nav a {
+        height: 20%;
+        color: black;
+    }
+}
+
+
+/* nav bar ends here */
+
+
+/* section transforming */
+
+
+/* section rupanifoundation ends here */
+
+.header-rupani {
+    height: 80vh;
+    width: 100%;
+    background-image: url(./assets/images/rupani/Vector\ 4.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    background-position: right;
+    background-size: 60% 100%;
+}
+
+.transcontent {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    /* padding: 10px 20px; */
+    text-align: start;
+}
+
+.transcontent h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 72px;
+    color: #444444;
+    /* right: 1px; */
+}
+
+.transcontent span {
+    color: #0e793d;
+}
+
+.donations button {
+    width: 158.85px;
+    height: 46px;
+    background: #D08E17;
+    border-radius: 0px 25px;
+    border: none;
+    color: white;
+}
+
+.donations button:hover {
+    background: rgba(208, 142, 23, 0.72);
+}
+
+.transcontent p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    width: 75%;
+}
+
+
+/* section we work starts here */
+
+.wework {
+    height: 484px;
+    width: 100%;
+}
+
+.donate {
+    padding: 97px 89px;
+}
+
+.foundation {
+    height: 100%;
+    align-items: center;
+}
+
+.foundation .donate h3 {
+    width: 474px;
+    height: 72.26px;
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 72px;
+    color: #444444;
+}
+
+.donate span {
+    color: #0e793d;
+}
+
+.donate p {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    /* padding: 101px 73px; */
+}
+
+.donatephoto img {
+    width: 100%;
+    /* background: url(image.png); */
+    border-radius: 6px;
+}
+
+.donate button {
+    width: 159.85px;
+    height: 46px;
+    background: #D08E17;
+    border-radius: 0px 25px;
+    border: none;
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.donate button:hover {
+    background-color: #444444;
+}
+
+
+/* section we works ends here */
+
+
+/* section we works rupani starts here */
+
+.weworkrupani {
+    width: 100%;
+    height: 100px;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weworkrupani h2 {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    /* identical to box height */
+    color: #444444;
+}
+
+.weworkrupani span {
+    color: #0e793d;
+}
+
+.weworkcards {
+    height: 120vh;
+    width: 100%;
+}
+
+.educards img {
+    padding: 15px;
+}
+
+.weworkcards.row {
+    background-color: #001D0D;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-card .educards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    margin-right: 10px;
+    color: #FFFFFF;
+    background: #0E793D;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.work-card .educards:hover {
+    background-color: rgba(3, 107, 3, 0.459);
+    color: #FFFFFF !important;
+}
+
+.weworkcards .educards p {
+    /* font-family: 'Poppins' sans-serif; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* we work rupani ends here */
+
+
+/* oursucess starts here */
+
+.su-sucess {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.su-sucess h2 {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 51px;
+    color: #444444;
+}
+
+.oursucess span {
+    color: #0e793d;
+}
+
+.row .our {
+    background: rgba(14, 121, 61, 0.4);
+    box-shadow: 0px 3px 6px #E9D2A9;
+    border-radius: 50px 4px 4px 4px;
+    padding: 5px 10px;
+}
+
+.our h3 {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 20px;
+    color: #444444;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.our p {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #444444;
+    padding: 0 10px;
+}
+
+
+/* sucess ends here */
+
+
+/* section footer starts here */
+
+.footer {
+    height: 428px;
+    width: 100%;
+    background-color: #001D0D;
+}
+
+.footer h3 {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.footer p {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer h5 {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+
+/* footer ends here */
